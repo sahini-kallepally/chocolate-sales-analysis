@@ -1,35 +1,54 @@
 # chocolate-sales-analysis
 Chocolate sales analysis
 
-🍫 World Chocolate Sales Dashboard (Tableau + Python)
-A data-driven project that analyzes global chocolate sales using interactive Tableau dashboards and Python-based preprocessing to uncover trends, regional insights, and business opportunities.
+# 🍫 World Chocolate Sales Dashboard (Tableau + Python)
 
-📌 Project Overview
-This project visualizes global chocolate sales data across continents, countries, and sales agents. It aims to empower stakeholders with real-time insights to drive decisions in product strategy, logistics, marketing, and regional sales operations.
+A data-driven dashboard that analyzes global chocolate sales using Python for preprocessing and Tableau for compelling, interactive visualizations. This project helps stakeholders uncover regional trends, performance insights, and actionable business intelligence.
 
-🔧 Tools & Technologies
-Python: Data cleaning, wrangling, and preprocessing
-Pandas, NumPy: Handling missing values, duplicates, and date parsing
-Tableau: Data visualization and dashboard development
-Excel / CSV: Data sources used for demonstration purposes
+---
 
-📊 Dashboard Features:
+## 📌 Project Overview
 
-🌍 Continent & Country Filters – Region-specific trend analysis
-📈 Time-Series Graphs – Track seasonal trends and predict sales
-🧩 Treemap & Bubble Charts – Highlight top products, categories, or sales reps
-🗺️ Geo Heatmaps – View distribution by geography and team performance
-🚛 Logistics Visuals – Showcase shipment volumes and delivery insights
-🎯 Dynamic Filters – Slice data by product type, salesperson, or timeframe
+This project focuses on visualizing worldwide chocolate sales across regions, countries, sales representatives, and time periods. With Python handling data preparation and Tableau offering rich visual storytelling, the dashboard supports data-informed decisions for strategy, logistics, and marketing.
 
-🧠 Business Questions Answered
-Which countries and regions have the highest chocolate sales?
-Who are the top-performing sales representatives by volume or revenue?
-How do sales vary across time periods (monthly/quarterly/yearly)?
-What product categories contribute the most to revenue?
-Are there regional logistics patterns that affect delivery efficiency?
+---
 
-🧼 Data Preparation
-Removed duplicates and handled null values
-Converted date formats and calculated time-based fields
-Normalized product names and standardized categorical columns
+## 🔧 Tools & Technologies
+
+- **Python** – Data preprocessing and transformation  
+- **Pandas, NumPy** – Handling missing data, date parsing, data cleaning  
+- **Tableau** – Interactive dashboard creation  
+- **Excel / CSV** – Source data formats
+
+---
+
+## 📊 Key Dashboard Features
+
+- 🌍 **Regional Filters** – Select continent, country, or specific sales agents  
+- 🗺️ **Geographical Maps** – Visualize sales distribution globally  
+- 📈 **Sales Trends Over Time** – Analyze seasonality and growth patterns  
+- 🧩 **Treemaps & Bubble Charts** – Discover top products and reps  
+- 🚚 **Logistics Overview** – Track shipments and regional movement  
+- 🎯 **Dynamic Filtering** – Drill down by product category, agent, or month
+
+---
+
+## 🧠 Business Questions Answered
+
+- Which countries generate the highest chocolate sales?
+- Who are the top-performing sales reps by volume and revenue?
+- What are the sales trends over time?
+- Which product categories dominate specific regions?
+- Are there shipping or delivery insights that can optimize logistics?
+
+---
+
+## 🧼 Data Preparation
+
+- Removed duplicates and standardized formats  
+- Handled null values and cleaned inconsistent entries  
+- Parsed and normalized date formats  
+- Merged and mapped location-based fields (e.g., country to continent)  
+- Created calculated fields for Tableau analysis
+
+
